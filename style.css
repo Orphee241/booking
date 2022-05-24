@@ -1,0 +1,173 @@
+/* Header */
+@font-face {
+    font-family: mapolice;
+    src: url("/mapolice.ttf");
+}
+*{
+    font-family: mapolice;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: mapolice;
+}
+header{
+    background-color: #003580;
+    height: 100%;
+    color: white;
+    font-family: policee;
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    width: 85%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 2em;
+
+}
+.top .item{
+
+    box-sizing: border-box;
+    text-align: center;
+    padding: 4px 6px;
+}
+.top .add{
+    width: 16em;
+}
+.top .login, .signin{
+    width: 9em;
+    padding: 4px 6px;
+    text-align: center;
+}
+.top .empty{
+    width: 9em;
+}
+.top .item4{
+    display: flex;
+}
+.top .item4 img{
+    width: 25px;
+    border-radius: 50%;
+    padding: 0 1em;
+    margin-top: -7px;
+}
+
+.top .item a{
+    display: inline-block;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
+.top .logo{
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -8px;
+}
+header .top .logo{
+    font-size: 25px;
+    font-weight: bold;
+}
+.top a{
+    color: white;
+    text-decoration: none;
+}
+.top .xaf{
+    font-weight: bold;
+}
+.top2{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+
+    
+}
+.top2 a{
+    color: white;
+    font-weight: bold;
+}
+.top2 .item{
+    margin-right: 2em;
+}
+.top2 .avion p{
+    border: 1px solid white;
+    padding: 0.9em 1em; margin-right: 2em;
+    border-radius: 23px;
+    
+}
+
+/* H1 profiter */
+.profiter{
+    width: 85%;
+    margin: auto;
+    margin-top: 2em;
+    font-size: 40px;
+    font-family: mapolice;
+
+}
+.vosvoyages{
+    width: 85%;
+    margin: auto;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 1em;
+}
+.login2{
+    display: inline-block;
+    padding: 0.8em 1em;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    margin-left: 6.5em;
+    background-color: #1874c0;
+    margin-top: 1.5em;
+    
+}
+ /* Bottom */
+ .bottom{
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     border: 3px solid #FEBB02;
+     align-items: center;
+    margin: auto;
+    width: 85%;
+    height: 3em;
+    border-radius: 4px;
+    margin-top: 2.5em;
+   
+ }
+ .bottom .item{
+text-align: center;
+height: 3em;
+background-color: #fff;
+
+
+border: 1px solid #FEBB02;
+
+
+box-sizing: border-box;
+  
+ }
+ .bottom .item p{
+     transform: translateY(-1.4em);
+     color: rgb(56, 56, 56);
+   
+      
+}
+ .bottom .oualler{
+     width: 22em;
+ }
+ .bottom .input{
+height: 90%;
+width: 100%;
+transform: translateY(-1.55em);
+border: 3px solid #FEBB02;
+     
+ }
+ .bottom .rechercher{
+     transform: translateY(2em);
+     position: relative;
+     top: 1em;
+
+ }
