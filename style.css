@@ -500,7 +500,6 @@ transform: translateY(1em);
 }
  */
 .overflow{
-    border: 1px solid red;
     width: 80%;
     margin: auto;
     overflow: hidden;
