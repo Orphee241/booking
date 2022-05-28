@@ -6,9 +6,9 @@ next.onclick = function(){
     block.style.transform = "translateX(-183px)";
     previous.style.display = "flex"
 }
-previuos.onclick = function(){
-    block.style.transform = "translateX(183px)";
-    previous.style.display = "flex"
-    next.style.display = "none"
+previous.onclick = function(){
+    block.style.transform = "translateX(0px)";
+    previous.style.display = "none"
+    
 }
 
