@@ -942,7 +942,7 @@ top: -2em;
     
 }
 .section10 .block .items .a2{
-   
+    padding: 10px 9px;
     color: rgb(36, 36, 36);
     display: inline-block;
     text-decoration: none;   
@@ -952,8 +952,7 @@ top: -2em;
     background-color: #ededed;
     padding: 10px 9px;
     border-radius: 25px;
-    margin-top: -1em;
-    text-decoration: none;
+
 }
 .section10 .items2  .titre:hover{
    text-decoration: underline;

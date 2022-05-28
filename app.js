@@ -20,3 +20,8 @@ previous.onclick = function(){
     
 }
 
+let closeBtn = document.querySelector(".croix");
+let section3 = document.querySelector(".section3");
+closeBtn.onclick = function(){
+    section3.style.display = "none";
+}
