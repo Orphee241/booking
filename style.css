@@ -372,6 +372,7 @@ transform: translateY(1em);
 }
 
 .section1 .offres{
+    padding: 0 0.9em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: auto;
@@ -379,13 +380,14 @@ transform: translateY(1em);
     margin-top: 2.5em;
     border: 1px solid rgb(221, 221, 221);
     padding-top: 1em;
+    box-sizing: border-box;
 }
 .section1 .offres .img{
     width: 151px;
 
 }
 .section1 .offres .item{
-    transform: translateX(-26.5em);
+    transform: translateX(-25.5em);
     line-height: 15px;
 }
 .section1 .offres .item h4{
@@ -541,7 +543,8 @@ transform: translateY(1em);
 .section3{
    
     border:  1px solid rgb(172, 170, 170);
-    
+    margin: auto;
+    width: 80%;
     position: relative;
     margin-top: 3em;
     border:  1px solid rgb(172, 170, 170);
@@ -805,10 +808,11 @@ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .section6  .block .titre, .ville{
     font-size: 14px;
-    color: rgb(80, 80, 80);
+    color: rgb(74, 74, 74);
 }
 .section6  .ville{
     margin-top: -0.5em;
+    color: rgb(143, 143, 143);
 }
 .section6  .prix{
     font-size: 14px;
@@ -938,10 +942,24 @@ top: -2em;
     
 }
 .section10 .block .items .a2{
-    text-decoration: none;
+   
     color: rgb(36, 36, 36);
     display: inline-block;
-    
+    text-decoration: none;   
+}
+.section10 .block .items .a2:hover{
+    display: inline-block;
+    background-color: #ededed;
+    padding: 10px 9px;
+    border-radius: 25px;
+    margin-top: -1em;
+    text-decoration: none;
+}
+.section10 .items2  .titre:hover{
+   text-decoration: underline;
+   cursor: pointer;
+
+
 }
 .section10 .regions{
     display: inline-block;
