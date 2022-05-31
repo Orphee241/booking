@@ -638,8 +638,7 @@ width: 22em;
 }
 .section2 .retour img{
     width: 12px;
-    height: 12px;
-    
+    height: 12px;   
 }
 
  .section6 .retour2{
@@ -647,18 +646,33 @@ width: 22em;
     height: 30px;
     border-radius: 50%;
     position: absolute;
-    right: 75.1em;
-    top: 5em;
+    right: 75em;
+    top: 9.5em;
     transform: rotate(180deg);
     background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.324);
     display: none;
-    
+   
 }
- 
+.retour2:hover{
+    cursor: pointer;
+}
+.retour:hover{
+    cursor: pointer;
+}
+.suivant:hover{
+    cursor: pointer;
+}
+.suivant2:hover{
+    cursor: pointer;
+}
+.section6 .retour2 img{
+    width: 12px;
+    height: 12px;   
+}
 .section2 .overflow{
     width: 81.5%;
     margin: auto;

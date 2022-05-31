@@ -15,12 +15,17 @@ next.onclick = function(){
 
 next2.onclick = function(){
     block2.style.transform = "translateX(-272px)";
-    previous.style.display = "flex"
+    previous2.style.display = "flex"
 }
 
 previous.onclick = function(){
     block.style.transform = "translateX(0px)";
     previous.style.display = "none"
+    
+}
+previous2.onclick = function(){
+    block2.style.transform = "translateX(0px)";
+    previous2.style.display = "none"
     
 }
 
