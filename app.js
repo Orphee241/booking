@@ -1,8 +1,12 @@
 let block = document.getElementById("blocksection2");
+let block2 = document.getElementById("blocksection6");
 let next = document.querySelector(".suivant")
-let previous = document.querySelector(".retour")
+let next2 = document.querySelector(".suivant2")
 
-let next2 = document.querySelector(".suivant")
+let previous = document.querySelector(".retour")
+let previous2 = document.querySelector(".retour2")
+
+
 
 next.onclick = function(){
     block.style.transform = "translateX(-183px)";
@@ -10,7 +14,7 @@ next.onclick = function(){
 }
 
 next2.onclick = function(){
-    block.style.transform = "translateX(-183px)";
+    block2.style.transform = "translateX(-272px)";
     previous.style.display = "flex"
 }
 
@@ -20,8 +24,16 @@ previous.onclick = function(){
     
 }
 
+
+
 let closeBtn = document.querySelector(".croix");
 let section3 = document.querySelector(".section3");
 closeBtn.onclick = function(){
     section3.style.display = "none";
+}
+
+let closeBtn2 = document.querySelector(".croix2");
+let offres = document.querySelector(".offres");
+closeBtn2.onclick = function(){
+    offres.style.display = "none";
 }
